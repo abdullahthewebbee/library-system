@@ -1,0 +1,20 @@
+Installation Steps
+================
+
+1. Download zip file and Unzip file on your local server.
+2. Put this file inside "c:/wamp/www/"  OR "c:/xamp/htdocs/" .
+
+Database Configuration:
+==================
+
+1. Open phpmyadmin
+2. Create New Database named "library_system".
+3. Import database tables in newly created database "library_system" from downloaded folder -> sql -> library_system.sql.zip.
+4. In "PROJECT-FOLDER/config.php" change the value of $conn (hostname,db_username,db_pasword,db_name).
+5. Open Your browser put inside URL: "http://localhost/library-system/"
+
+login details:
+====================
+Login Id : admin
+Password : admin
+
